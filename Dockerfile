@@ -1,8 +1,8 @@
 FROM ubuntu:16.04
 
-MAINTAINER Mike Stead
+MAINTAINER Henk Bakker
 
-ENV OCTO_TOOLS_VERSION 4.15.1
+ENV OCTO_TOOLS_VERSION 4.42.1
 
 RUN apt-get update && \
     apt-get install -y wget libunwind8 libicu55 libcurl4-openssl-dev && \
